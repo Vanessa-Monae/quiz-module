@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <div class="hs">
-        <a href="hs.html"  rel="noopener noreferrer">view highscores</a>
+        <a href="hs.html" rel="noopener noreferrer">view highscores</a>
     </div>
     <div class="countdown">
         remaining time: <span id="countdown">120 </span>
     </div>
 
-    <div class="quiz-container"> 
-<!-- We need a container (div or section) that holds our start screen with a button-->
-<div class= "start-section" id="start-section">
-    <h1> JavaScript Quiz</h1>
-    <p id="This is a text box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, magnam voluptates. Eligendi architecto, reiciendis laborum quo id quod eum tenetur facere unde, quisquam cumque modi perspiciatis officiis eius at commodi.
+    <div class="quiz-container">
+        <!-- We need a container (div or section) that holds our start screen with a button-->
+        <div class="start-section" id="start-section">
+            <h1> JavaScript Quiz</h1>
+            <p id="This is a text box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, magnam voluptates.
+                Eligendi architecto, reiciendis laborum quo id quod eum tenetur facere unde, quisquam cumque modi
+                perspiciatis officiis eius at commodi.
 
-    </p>
-    <button id="start-quiz">Start Quiz</button>
-</div>
+            </p>
+            <button id="start-quiz">Start Quiz</button>
+        </div>
+        <!-- and we need a container that holds our questions and answers -->
+        <div id="questions" class="hidden">
+                <h2 id="question"></h2>
+                <div id=" answer-choices" class="answer-choices">
+
+                </div>
+        </div>
     </div>
-    <p id="This is a text box">"Hello"</p>
-    <!-- We need a container (div or section) that holds our start screen with a button-->
+
     <!-- and we need a container that holds our questions and answers -->
     <!-- we also might need a highscores container that displays once the quiz is up -->
     <p id="whatev" class="hidden">I am hidden</p>
     <p>I am not</p>
-    
+
     <script src="./script.js"></script>
 </body>
+
 </html>
