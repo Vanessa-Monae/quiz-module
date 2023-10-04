@@ -3,8 +3,16 @@
 //var Button = 
 
 //var StartContainer = 
-var test = document.getElementById("This is a text box") 
-console.log(test)
+var startSectionEl = document.getElementById("start-section");
+var countdownEl = document.getElementById("countdown");
+var startQuizEl = document.getElementById("start-quiz");
+var questionsEl = document.getElementById("questions");
+var questionEl = document.getElementById("question");
+startQuizEl.onclick= startQuiz;
+
+function startQuiz (){
+    console.log("start quiz called");
+}
 //var QuizContainer = 
 
 // var Highscores = 
