@@ -1,0 +1,17 @@
+/* this is like an invisibility cloak, when we give an html element this class, it will disappear */
+.hidden {
+    display: none;
+    /* visibility: hidden */
+}
+
+.hs{
+    top: 7px;
+    left: 7px;
+    position: absolute;
+}
+
+.countdown{
+    top: 7px;
+    right: 7px;
+    position: absolute;
+}
