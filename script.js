@@ -12,6 +12,12 @@ startQuizEl.onclick= startQuiz;
 
 function startQuiz (){
     console.log("start quiz called");
+    // startQuiz()
+    // we need to make the start container disappear
+        // whetevElement.removeAttribute('class')
+startSectionEl.setAttribute("class", "hidden");
+    // and show the quiz container
+        // whatevElement.setAttribute('class', 'hidden')
 }
 //var QuizContainer = 
 
@@ -73,12 +79,7 @@ var Time = "1:00"
 // Once someone clicks on the button we need to run a function that starts the quiz
     // whatevButton.onclick = someFunction;
 
-// startQuiz()
-    // we need to make the start container disappear
-        // whetevElement.removeAttribute('class')
 
-    // and show the quiz container
-        // whatevElement.setAttribute('class', 'hidden')
         // then we need to populate the html with the data from our questons array
         // whatev.textContent = "Whatever you want"
         
